@@ -1,13 +1,13 @@
-# configure aws provider to establich a secure connection between terraform and aws
+# configure aws provider to establish a secure connection between terraform and aws
 provider "aws" {
-region =
-profile =
+  region  = var.region
+  profile = "terraform-user"
 
-default_tag {
-  tags = {
-    "Automation" =
-    "Project"    =
-    "Environment"=
+  default_tags {
+    tags = {
+      "Automation"  = "terraform"
+      "Project"     = var.project_name
+      "Environment" = var.environment
     }
   }
 }
