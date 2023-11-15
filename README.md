@@ -35,7 +35,7 @@ Follow these steps to get the project up and running:
 
     sh
 
-git clone https://github.com/your-username/ecommerce-aws-terraform.git
+git clone https://github.com/ycarmack2647/rentzone-terraform-ecs-project/blob/main/README.md
 
 Change into the project directory:
 
@@ -95,9 +95,3 @@ If you'd like to contribute to this project, please follow these guidelines:
 
 We welcome contributions and appreciate your input!
 License
-
-<<<<<<< HEAD
-This project is licensed under the MIT License. Please refer to the LICENSE file for more details.
-=======
-This project is licensed under the MIT License. Please refer to the LICENSE file for more details.
->>>>>>> 4e208166d6cd274ff13b598b74f81733e1ab47f1
