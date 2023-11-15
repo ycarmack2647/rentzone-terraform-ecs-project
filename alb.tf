@@ -7,11 +7,11 @@ resource "aws_lb" "application_load_balancer" {
   security_groups    = [aws_security_group.alb_security_group.id]
 
   subnet_mapping {
-    subnet_id = aws_subnet.public_app_subnet_az1.id
+    subnet_id = aws_subnet.public_subnet_az1.id
   }
 
   subnet_mapping {
-    subnet_id = aws_subnet.public_app_subnet_az2.id
+    subnet_id = aws_subnet.public_subnet_az2.id
   }
 
   enable_deletion_protection = false
