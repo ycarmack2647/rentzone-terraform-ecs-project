@@ -1,5 +1,8 @@
 # rentzone-terraform-ecs-project
+<<<<<<< HEAD
 # rentzone-terraform-ecs-project
+=======
+>>>>>>> 4e208166d6cd274ff13b598b74f81733e1ab47f1
 Project Title
 
 Host a Dynamic Ecommerce Website on AWS with Terraform
@@ -93,4 +96,8 @@ If you'd like to contribute to this project, please follow these guidelines:
 We welcome contributions and appreciate your input!
 License
 
+<<<<<<< HEAD
 This project is licensed under the MIT License. Please refer to the LICENSE file for more details.
+=======
+This project is licensed under the MIT License. Please refer to the LICENSE file for more details.
+>>>>>>> 4e208166d6cd274ff13b598b74f81733e1ab47f1
