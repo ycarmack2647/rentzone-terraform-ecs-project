@@ -82,5 +82,13 @@ variable "ssl_certificate_arn" {
   type = string
 }
 
+# sns topic variables
+variable "operator_email" {
+  default = "ycarmack@protonmail.com"
+  description = "a valid email address"
+  type = string
+}
+
+
 
 
